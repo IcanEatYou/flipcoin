@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>object</title>
+  </head>
+  <body>
+    <script>
+      
+     
+
+     const random = Math.random();
+     const result = (random < 0.5?'heads':'tails'); 
+     
+      const guess = 'heads';
+      console.log(guess === result?'you win':'you lose');
+      
+
+    </script>
+  </body>
+</html>
